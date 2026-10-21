@@ -9,7 +9,7 @@ services:
     envVars:
       - key: NODE_VERSION
         value: "20"
-      - key: CF_WORKER_URLS
-        sync: false      # カンマ区切りで Worker の URL を入れる（未設定なら server.js の既定値）
+#      - key: CF_WORKER_URLS
+#        sync: false
       - key: KEEP_ALIVE
         value: "0"
